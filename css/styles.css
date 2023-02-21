@@ -1,0 +1,76 @@
+:root {
+  --paragraph-color: rgba(117, 117, 117, 1);
+}
+:root {
+  --text-color: rgba(33, 33, 33, 1);
+}
+:root {
+  --background-color: rgba(33, 150, 243, 1);
+}
+:root {
+  --secondary-text-color: rgba(255, 255, 255, 1);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+h1 {
+  font-size: 44px;
+  color: var(--secondary-text-color);
+  background-color: rgba(47, 48, 58, 1);
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+h3 {
+  font-weight: 500;
+}
+.button-styles:hover {
+  color: var(--secondary-text-color);
+  background: var(--background-color);
+  cursor: pointer;
+}
+.home-link:hover {
+  color: var(--background-color);
+}
+.home-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  color: var(--background-color);
+  font-weight: 700;
+  line-height: 1.17;
+}
+.link:hover {
+  color: var(--background-color);
+}
+.navigation-list {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.contact-list {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.contacts:hover {
+  color: var(--background-color);
+}
+.benefits {
+  font-size: 14px;
+  line-height: 1.17;
+}
+.team-images {
+  line-height: 1.17;
+}
+p {
+  font-weight: 400;
+}
+b {
+  font-size: 18px;
+}
